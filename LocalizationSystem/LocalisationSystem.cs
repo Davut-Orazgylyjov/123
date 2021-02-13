@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class LocalisationSystem
 {
-
+    //Languages ID strings
     public enum Language
     {
         English,
@@ -37,6 +37,7 @@ public class LocalisationSystem
         Czech
     }
 
+    //Defult language
     public static Language language = Language.Russian;
 
     private static Dictionary<string, string> localised_English;
